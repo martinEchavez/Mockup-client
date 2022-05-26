@@ -1,0 +1,24 @@
+{
+  "name": "mockup-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinEchavez/Mockup-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinEchavez/Mockup-client/issues"
+  },
+  "homepage": "https://github.com/martinEchavez/Mockup-client#readme",
+  "dependencies": {
+    "three": "^0.141.0",
+    "three-collada-loader": "0.0.1"
+  }
+}

@@ -38,7 +38,8 @@
       } function l(e) { if (e.ep) return; e.ep = !0; const r = m(e); fetch(e.href, r) }
     }; g(); let t, i, s;
 
-    window.renderScene = async o => {
+    const renderScene = async o => {
+      console.log('window.renderScene')
       const c = document.querySelector("#app");
       s = new n.WebGLRenderer({
         antialias: !0,

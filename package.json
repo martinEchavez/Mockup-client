@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/martinEchavez/Mockup-client#readme",
   "dependencies": {
+    "express": "^4.18.1",
+    "gl": "^5.0.0",
+    "mock-browser": "^0.92.14",
     "three": "^0.141.0",
-    "three-collada-loader": "0.0.1"
+    "three-collada-loader": "0.0.1",
+    "three-png-stream": "^1.0.3"
   }
 }
